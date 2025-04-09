@@ -8,16 +8,10 @@ This project tests the Selenium Dev UI and the Glax Weather API.
 - IDE - preferably IntelliJ
 - Intellij IDE Plugins - Cucumber, Gherkin, Lombok
 
-#### API Tests
-- To generate an API Key for running the Met office API tests, follow the instructions found here:
-  `https://www.metoffice.gov.uk/services/data/datapoint/getting-started`
-- In order to get API test to work, you will need to update the `APIKeys.properties` with the generated API key.
-
 #### UI Tests
 - Make sure you have the latest version of Chrome installed on your machine.
 - The drivers are automatically downloaded by serenity.
 - To find out what version of Chrome you have installed, go to `chrome://settings/help` in your Chrome browser.
-
 
 ### Running tests from terminal
 - Make sure the `cucumber.filter.tags` property in the `cucumber.properties` file has the value `@API and @UI`. `cucumber.filter.tags=@API and @UI`
